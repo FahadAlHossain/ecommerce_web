@@ -57,6 +57,19 @@ button.normal{
   transition: 0.2s;
 }
 
+button.white{
+  font-size: 13px;
+  font-weight: 600;
+  padding: 11px 18px;
+  color: #fff;
+  background-color: transparent;
+  border-radius: 4px;
+  cursor: pointer;
+  border: 1px solid #fff;
+  outline: none;
+  transition: 0.2s;
+}
+
 body {
   width: 100%;
 }
@@ -223,6 +236,7 @@ body {
   min-width: 250px;
   padding: 10px 12px;
   border: 1px solid #cce7d0;
+  border-radius: 20px;
   cursor: pointer;
   box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.02);
   margin: 15px 0;
@@ -313,3 +327,92 @@ body {
   background-color: #088178;
   color: #fff;
 }
+
+#sm-banner{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+#sm-banner .banner-box{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  background-image: url("img/banner/b17.jpg");
+  min-width: 690px;
+  height: 50vh;
+  background-size: cover;
+  background-position: center;
+  padding: 30px;
+}
+
+#sm-banner .banner-box-2{
+  background-image: url("img/banner/b10.jpg");
+}
+
+#sm-banner h4{
+  color: #fff;
+  font-size: 20px;
+  font-weight: 300;
+}
+
+#sm-banner h2{
+  color: #fff;
+  font-size: 28px;
+  font-weight: 800;
+}
+
+#sm-banner span{
+  color: #fff;
+  font-size: 14px;
+  font-weight: 500;
+  padding-bottom: 15px;
+}
+
+#sm-banner button:hover{
+  background-color: #088178;
+  border: none;
+}
+
+#banner-3{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 0 80px;
+}
+
+#banner-3 .banner-box{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  background-image: url("img/banner/b7.jpg");
+  min-width: 30%;
+  height: 30vh;
+  background-size: cover;
+  background-position: center;
+  padding: 30px;
+  margin-bottom: 20px;
+}
+
+#banner-3 .banner-box2{
+  background-image: url("img/banner/b4.jpg");
+}
+
+#banner-3 .banner-box3{
+  background-image: url("img/banner/b18.jpg");
+}
+
+#banner-3 h2{
+  color: #fff;
+  font-size: 22px;
+  font-weight: 900;
+}
+
+#banner-3 h3{
+  color: #ef3636;
+  font-size: 15px;
+  font-weight: 800;
+}
+
