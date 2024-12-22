@@ -544,6 +544,105 @@ footer .copywrite {
   text-align: center;
 }
 
+/* -------- shop page ---------- */
+
+/* shop hero section */
+
+#shop-hero{
+  background-image: url("img/banner/b1.jpg");
+  width: 100%;
+  height: 40vh;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  padding: 14px;
+}
+
+#shop-hero h2,
+#shop-hero p{
+  color: #fff;
+}
+
+#pagination{
+  text-align: center;
+}
+
+#pagination a{
+  text-decoration: none;
+  background-color: #e8f6ea;
+  padding: 15px 20px;
+  border-radius: 4px;
+  color: #000;
+  border: 1px solid #088178;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+#pagination a:hover{
+  background-color: #088178;
+  color: #fff;
+}
+
+#product-details .single-pro-img{
+  width: 40%;
+  margin-right: 50px;
+}
+
+.small-img-grp{
+  display: flex;
+  justify-content: space-between;
+}
+
+.small-img-col{
+  flex-basis: 24%;
+  cursor: pointer;
+}
+
+#product-details{
+  display: flex;
+  margin-top: 20px;
+}
+
+#product-details .single-pro-details{
+  width: 50%;
+  padding-top: 30px;
+}
+
+#product-details .single-pro-details h4{
+  padding:40px 0 20px 0;
+}
+
+#product-details .single-pro-details h2{
+  font-size: 26px;
+}
+
+#product-details .single-pro-details select{
+  display: block;
+  padding: 5px 10px;
+  margin-bottom: 10px;
+}
+
+#product-details .single-pro-details input{
+  width: 50px;
+  height: 47px;
+  padding-left: 10px;
+  font-size: 16px;
+  margin-right: 10px;
+}
+
+#product-details .single-pro-details button{
+  background-color: #e8f6ea;
+  border: 1px solid #088178;
+  transition: 0.3s;
+}
+
+#product-details .single-pro-details button:hover{
+  background-color: #088178;
+  color: #fff;
+}
+
 /* responsive design */
 
 @media (max-width: 799px) {
