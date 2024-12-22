@@ -643,6 +643,10 @@ footer .copywrite {
   color: #fff;
 }
 
+#product-details .single-pro-details span{
+  line-height: 25px;
+}
+
 /* responsive design */
 
 @media (max-width: 799px) {
