@@ -49,7 +49,7 @@ The website is fully responsive and optimized for:
 For any feedback or suggestions, feel free to reach out:
 
 - **Email:** [fahadalhossain5@gmail.com](mailto\:fahadalhossain5@gmail.com)
-- **LinkedIn:** [](#)
+- **LinkedIn:** [https://www.linkedin.com/in/fahad-al-hossain-1b3120219/](#https://www.linkedin.com/in/fahad-al-hossain-1b3120219/)
 
 ## 📄 **License**
 
