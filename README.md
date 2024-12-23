@@ -33,7 +33,7 @@ The website is fully responsive and optimized for:
 
 1. Clone this repository:
    ```bash
-   [git clone https://github.com/FahadAlHossain/ecommerce-website.git]
+   [git clone (https://github.com/FahadAlHossain/ecommerce_web.git)]
    ```
 2. Open the project folder.
 3. Open `index.html` in your preferred browser.
